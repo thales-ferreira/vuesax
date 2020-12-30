@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld/>
+    <NavBar />
+    <img width="25%" src="./assets/logo.png" />
+
+    <HelloWorld />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import NavBar from "./components/NavBar";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    NavBar,
+  },
 };
 </script>
 
